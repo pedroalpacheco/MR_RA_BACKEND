@@ -1,0 +1,22 @@
+{
+  "name": "mr_ra-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:internet": "node test/test_internet.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "internet-available": "^1.0.0",
+    "mongoose": "^6.2.1",
+    "node-schedule": "^2.1.0",
+    "puppeteer": "^13.2.0",
+    "shelljs": "^0.8.5",
+    "speedtest-net": "^2.2.0"
+  }
+}
